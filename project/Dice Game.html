@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dice Game</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="scripts/myScripts.js" defer></script>
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="header">
+            <h1><i><strong>Comp2132 Project</strong></i></h1>
+        </header>
+        <main>
+            <hr>
+            <div class="container">
+                <h1 class="title">Dice Game</h1>
+                <div class="game">
+                    <aside class="countWhite" id="countWhite"></aside>
+                    <div class="mainGame">
+                        <div class="character">
+                            <div class="player">
+                                <img class="p1" id="p1" src="pic/character/before.jpg" alt="player_1 image">
+                                <h3>Player</h3>
+                                <div class="whiteDice">
+                                    <img class="playerDice" id="playerDice1" src="pic/dice/white_dice_1.png"
+                                        alt="white dice 1">
+                                    <img class="playerDice" id="playerDice2" src="pic/dice/white_dice_6.png"
+                                        alt="white dice 6">
+                                </div>
+                            </div>
+                            <div class="middle">
+                                <div class="connection">
+                                    <img class="vs" src="pic/character/connection.jpg" alt="vs image">
+                                </div>
+                                <div class="popup" id="popup"></div>
+                                <img class="animate" id="animate" src="pic/dice/dice_rolling_1.png" alt="Rolling die">
+                            </div>
+                            <div class="component">
+                                <img class="p2" id="p2" src="pic/character/before.jpg" alt="player_2 image">
+                                <h3>Component</h3>
+                                <div class="blackDice">
+                                    <img class="componentDice" id="componentDice1" src="pic/dice/black_dice_1.png"
+                                        alt="black dice 1">
+                                    <img class="componentDice" id="componentDice2" src="pic/dice/black_dice_6.png"
+                                        alt="black dice 6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-div">
+                            <button class="start" id="start"> Rolling dice</button>
+                            <button class="reset" id="reset"> Reset Game</button>
+                        </div>
+                    </div>
+                    <aside class="countBlack" id="countBlack"></aside>
+                </div>
+        </main>
+        <footer class="footer">
+            <p>Copy 20** - COMP2132</p>
+
+
+        </footer>
+
+    </div>
+
+
+</body>
